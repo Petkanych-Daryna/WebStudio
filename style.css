@@ -1,0 +1,53 @@
+.link{
+    color:blue;
+    text-align: center;
+    font-size: 30px;
+}
+.message{
+    color: aqua;
+}
+.message1{
+    color: blueviolet;
+}
+.write{
+    color: blue;
+}
+
+.email{
+    color: blue;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+button{
+color: blue;
+text-align: center;
+font-size: 25px;
+}
+h2{
+text-align: center;
+font-size: 35px;
+}
+.pictures{
+    text-align: center;
+    display: inline-block;
+}
+.link1{
+    color: blue;
+}
+.l{
+    color: blue;
+    font-size: 30px;
+}
+.p{
+    color: blue;
+}
+.y{
+    color: blue;
+}
+.card{
+    text-align: center;
+    display: inline-block;
+}
