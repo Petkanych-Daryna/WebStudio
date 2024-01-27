@@ -1,61 +1,130 @@
-.link{
+body{
+    font-family: Roboto; 
+    word-wrap: break-word   
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+.head-link{
     color: #2196F3;
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
     letter-spacing: 0.78px;
-    word-wrap: break-word
 }
-.class1{
+.header-all:hover{
+    color:#2196F3;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+}
+span{
     color: black;
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
     letter-spacing: 0.78px;
-    word-wrap: break-word
 }
-.write{
-    color: blue;
+.link:hover{
+    color: #2196F3;
+}
+.header-link{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
 }
 h1{
     color: black;
     text-align: center;
     font-size: 44px;
-    font-family: Roboto;
     font-weight: 900;
     text-transform: uppercase;
     line-height: 60px;
     letter-spacing: 2.64px;
-    word-wrap: break-word
 }
 button{
-    color: blue;
-    text-align: center;
+    color: #2196F3;
     font-size: 16px;
-    font-family: Roboto;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
-    word-wrap: break-word
 }
-h2{
+.subtitle{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.42px;
+}
+.service-text{
+    color: #757575;
+    font-size: 14px;
+    font-weight:400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+.service-title{
+    color: #212121;
     text-align: center;
-    font-size: 35px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
 }
-.link1{
-    color: blue;
-}
-.live{
-    color: blue;
-    font-size: 30px;
-}
-.space{
-    color: blue;
-}
-.all{
-    color: blue;
+.service-subtitle{
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
 }
 .card{
     text-align: center;
     display: inline-block;
+
+}
+.card-item{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+.card-text{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}
+.img-item{
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+
+}
+.img-text{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+
+}
+.footer-item{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+
+}
+.footer-link{
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+
 }
