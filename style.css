@@ -1,3 +1,8 @@
+.container {
+    width: 1300px;
+    margin: 0 ;
+    padding: 0 100px;
+  }
 body{
     font-family: Roboto; 
     word-wrap: break-word   
@@ -6,12 +11,23 @@ a{
     text-decoration: none;
     color: currentColor;
 }
-.head-link{
+li{
+    list-style: none;
+}
+/* =============================HEADER====================== */
+
+.title-link{
     color: #2196F3;
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
     letter-spacing: 0.78px;
+}
+.header-nav{
+
+}
+.main-list-all{
+
 }
 .header-all:hover{
     color:#2196F3;
@@ -20,23 +36,45 @@ a{
     line-height: 26px;
     letter-spacing: 0.48px;
 }
-span{
+.title-logo{
     color: black;
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
     letter-spacing: 0.78px;
 }
+.subtitle-logo{
+    color:#FFFFFF;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+.title-button{
+    color: #FFFFFF;
+}
 .link:hover{
     color: #2196F3;
+}
+.nav-list{
+
+}
+.header-list{
+
 }
 .header-link{
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
 }
+
+/* =========================MAIN====================== */
+.main-service{
+    background-color: #2F303A;
+}
+
 h1{
-    color: black;
+    color: #FFFFFF;
     text-align: center;
     font-size: 44px;
     font-weight: 900;
@@ -45,11 +83,23 @@ h1{
     letter-spacing: 2.64px;
 }
 button{
-    color: #2196F3;
+    background-color: #2196F3;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
+}
+.main-service-text{
+
+}
+.main-service-list{
+
+}
+.main-service-item{
+
+}
+.main-service-img{
+
 }
 .subtitle{
     color: #212121;
@@ -72,12 +122,24 @@ button{
     font-weight: 700;
     letter-spacing: 1.08px;
 }
+.main-service-cards{
+
+}
 .service-subtitle{
     color: #212121;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
+}
+.service-list{
+
+}
+.main-service-cards{
+
+}
+.header-service-img{
+
 }
 .card{
     text-align: center;
@@ -112,8 +174,12 @@ button{
     letter-spacing: 0.48px;
 
 }
+/* ============================FOOTER====================== */
+.footer-service{
+     background: #2F303A;
+}
 .footer-item{
-    color: black;
+    color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -121,7 +187,7 @@ button{
 
 }
 .footer-link{
-    color: grey;
+    color: #FFFFFF99;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
