@@ -15,15 +15,12 @@ li{
     list-style: none;
 }
 /* =============================HEADER====================== */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     margin: 0;
     padding: 0;
 }
+
 .header{
     display: flex;
     align-items: center;
@@ -31,7 +28,6 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     padding: 25px 0;
     border-bottom: solid 1px #ECECEC;
 }
-
 .title-link{
     color: #2196F3;
     font-size: 26px;
@@ -39,25 +35,7 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     font-weight: 700;
     letter-spacing: 0.78px;
 }
-.header-nav{
 
-}
-.main-list-all{
-
-}
-.list-item{
-    color:#212121;
-    font-size: 16px;
-    background-color:#F5F4FA;
-    border-radius: 4px;
-    text-align: center;
-    display: inline-flex;
-    border-radius: 4px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-    padding: 6px 22px;
-}
 .title-logo{
     color: black;
     font-size: 26px;
@@ -88,7 +66,7 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     display: flex;
     gap: 50px;
 }
-.header-link{
+.nav-item{
     color: #212121;;
     font-size: 14px;
     letter-spacing: 0.28px;
@@ -97,52 +75,24 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 .header-link:hover{
     color:#2196F3;
 }
-.header-link-contact{
+.item-contact{
     color: #757575;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
 }
-.header-link-contact:hover{
+.item-contact:hover{
     color: #2196F3;
 }
 /* =========================MAIN====================== */
-.main{
+main{
     margin-bottom: 94px;
 
     padding: 0;
 }
-
-.main-list-all{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin-top: 94px;
-}
-.list-item{
-    color: #212121;
-    background: #F5F4FA;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-    padding: 6px 22px;
-}
-.list-item:first-child{
-    padding: 6px 25px;
-}
-.list-item:hover{
-    color: #FFF;
-    border-radius: 4px;
-    background: #2196F3;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-.main-service{
+.hero{
     background-color: #2F303A;
-    padding: 300px 452px 300px 452px;
+    padding: 300px 0px 300px 0px;
 }
 
 .h1{
@@ -174,10 +124,7 @@ button{
     width: 216px;
     height: 50px;
 }
-.main-service-text{
-
-}
-.main-service-list{
+.tabs-list{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -185,11 +132,11 @@ button{
     margin: 94px 0;
 
 }
-.main-service-item{
+.tabs-item{
     margin-right: 30px;
 
 }
-.main-service-item:last-child{
+.tabs-item:last-child{
     margin: 0;
 }
 .subtitle{
@@ -204,14 +151,14 @@ button{
 .subtitle{
     margin-bottom: 10px;
 }
-.service-text{
+.tabs-text{
     color: #757575;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.42px;
 }
-.service-title{
+.work{
     color: #212121;
     font-weight: 700;
     font-size: 36px;
@@ -219,16 +166,16 @@ button{
     text-align: center;
     margin-bottom: 50px;
 }
-.main-service-cards{
+.team{
     background-color: #F5F4FA;
     margin-top: 94px;
 
 }
-.main-img-service{
+.work-img{
     display: inline-flex;
     justify-content: space-between;
 }
-.service-subtitle{
+.team-subtitle{
     color: #212121;
     font-weight: 700;
     font-size: 36px;
@@ -238,7 +185,7 @@ button{
     padding-bottom: 50px;
 
 }
-.service-list{
+.team-list{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -246,48 +193,12 @@ button{
     padding-bottom: 94px;
 
 }
-.main-service-cards{
-    background-color: #F5F4FA;
-    margin-top: 94px;
-
-}
-.header-service-img{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    gap: 18px;
-    padding: 0;
-}
-.card-img{
-    border: 1px solid #EEEEEE;
-}
-.card{
+.items{
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
 
 }
-.service-cards{
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    margin-bottom: 20px;
-}
-.card-item-service{
-    color: #212121;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 1.08px;
-    margin-left: 24px;
-}
-.card-text-service{
-    color: #757575;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.48px;
-    margin-bottom: 20px;
-    margin-left: 24px;
-}
-.card-service{   
+.team-card{   
     margin-bottom: 30px;
 }
 .card-item{
@@ -304,7 +215,7 @@ button{
     line-height: 30px;
     letter-spacing: 0.48px;
 }
-.img-item{
+.img-title{
     color: #212121;
     font-weight: 500;
     font-size: 16px;
