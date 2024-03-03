@@ -86,7 +86,7 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     padding: 6px 22px;
 }
 /* =========================MAIN====================== */
-main{
+.main{
     margin-bottom: 94px;
 
     padding: 0;
@@ -119,7 +119,6 @@ main{
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .icon{
-    background-color: #F5F4FA;
     margin-top: 94px;
 
 }
@@ -134,8 +133,8 @@ main{
     border: 1px solid #EEEEEE;
 }
 .item-icon-card{
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     margin-bottom: 20px;
+    display: flex;
 }
 .card-item-service{
     color: #212121;
@@ -162,6 +161,7 @@ main{
     padding-top: 60px;
     padding-bottom: 20px;
     display: flex;
+    margin-left: 190px;
 }
 .footer-logo-first{
     color: #2196F3;
@@ -185,6 +185,7 @@ main{
     line-height: 24px;
     letter-spacing: 0.42px;
     display: flex;
+    margin-left: 190px;
 
 }
 .footer-link{
@@ -195,6 +196,7 @@ main{
     letter-spacing: 0.42px;
     display: flex;
     padding-bottom: 60px;
+    margin-left: 190px;
 
 }
 .footer-link:nth-child(2){
