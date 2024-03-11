@@ -130,14 +130,27 @@ main{
     padding: 25px 0;
     margin: 94px 0;
     gap: 30px;
-
 }
 .tabs-item{
-    margin-right: 30px;
-
 }
 .tabs-item:last-child{
     margin: 0;
+}
+.tabs-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 4px; 
+}
+.tabs-div{
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    padding: 25px;
+    padding-left: 100px;
+}
+.tabs-div:nth-child(1){
+     margin-left: 0;
 }
 .subtitle{
     color: #212121;
