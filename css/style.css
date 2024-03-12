@@ -139,16 +139,46 @@ main{
 .tabs-img{
     border-radius: 4px; 
 }
-.tabs-div{
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-    padding: 25px;
-    padding-left: 100px;
-}
 .tabs-div:nth-child(1){
-     margin-left: 0;
+    margin-left: 0;
+}
+.tabs-item:nth-child(1)::before{
+    content: url(/img/antenna1.svg);
+    background-color: #F5F4FA;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px; 
+}
+.tabs-item:nth-child(2)::before{
+    content: url(/img/clock1.svg);
+    background-color: #F5F4FA;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px; 
+}
+.tabs-item:nth-child(3)::before{
+    content: url(/img/diagram1.svg);
+    background-color: #F5F4FA;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px; 
+}
+.tabs-item:nth-child(4)::before{
+    content: url(/img/astronaut1.svg);
+    background-color: #F5F4FA;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px; 
+}
+.tabs-item:nth-child(2){
+    padding-bottom: 24px;
+}
+.tabs-item:nth-child(3){
+    padding-bottom: 24px;    
 }
 .subtitle{
     color: #212121;
@@ -158,6 +188,7 @@ main{
     text-transform: uppercase;
     display: block;
     text-align: left;
+    margin-top:30px;
 }
 .subtitle{
     margin-bottom: 10px;
