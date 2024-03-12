@@ -144,6 +144,8 @@ main{
 }
 .tabs-item:nth-child(1)::before{
     content:url("/img/antenna1.svg");
+    width: 70px;
+    height: 70px;
     background-color: #F5F4FA;
     padding-left: 100px;
     padding-right: 100px;
@@ -152,6 +154,8 @@ main{
 }
 .tabs-item:nth-child(2)::before{
     content: url("/img/clock1.svg");
+    width: 70px;
+    height: 70px;
     background-color: #F5F4FA;
     padding-left: 100px;
     padding-right: 100px;
@@ -160,6 +164,8 @@ main{
 }
 .tabs-item:nth-child(3)::before{
     content: url("/img/diagram1.svg");
+    width: 70px;
+    height: 70px;
     background-color: #F5F4FA;
     padding-left: 100px;
     padding-right: 100px;
@@ -168,6 +174,8 @@ main{
 }
 .tabs-item:nth-child(4)::before{
     content: url("/img/astronaut1.svg");
+    width: 70px;
+    height: 70px;
     background-color: #F5F4FA;
     padding-left: 100px;
     padding-right: 100px;
