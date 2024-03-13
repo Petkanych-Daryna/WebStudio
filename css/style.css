@@ -132,63 +132,32 @@ main{
     gap: 30px;
 }
 .tabs-item{
+    
 }
-.tabs-item:last-child{
-    margin: 0;
-}
-.tabs-img{
-    border-radius: 4px; 
-}
-.tabs-div:nth-child(1){
-    margin-left: 0;
+.tabs-item::before{
+    content: '';
+
+    display: block;
+    
+    width: 248px;
+    height: 120px;
+
+    background-color: #F5F4FA;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .tabs-item:nth-child(1)::before{
-    content:url("../img/antenna1.svg");
-
-    width: 70px;
-    height: 70px;
-
-    background-color: #F5F4FA;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 80px;
-    padding-bottom: 20px; 
+background-image: url(../img/antenna1.svg);
 }
 .tabs-item:nth-child(2)::before{
-    content: url("../img/clock1.svg");
-
-    width: 70px;
-    height: 70px;
-
-    background-color: #F5F4FA;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 80px;
-    padding-bottom: 20px; 
+background-image: url(../img/clock1.svg);
+    
 }
 .tabs-item:nth-child(3)::before{
-    content: url("../img/diagram1.svg");
-
-    width: 70px;
-    height: 70px;
-
-    background-color: #F5F4FA;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 80px;
-    padding-bottom: 20px; 
+background-image: url(../img/diagram1.svg);
 }
 .tabs-item:nth-child(4)::before{
-    content: url("../img/astronaut1.svg");
-
-    width: 70px;
-    height: 70px;
-    
-    background-color: #F5F4FA;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 80px;
-    padding-bottom: 20px; 
+background-image: url(../img/astronaut1.svg);
 }
 .subtitle{
     color: #212121;
