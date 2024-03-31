@@ -14,13 +14,11 @@ a{
 li{
     list-style: none;
 }
-/* =============================HEADER====================== */
-
 h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     margin: 0;
     padding: 0;
 }
-
+/* =============================HEADER====================== */
 .header{
     display: flex;
     align-items: center;
@@ -86,12 +84,13 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 }
 /* =========================MAIN====================== */
 main{
-
-
     padding: 0;
 }
 .hero{
-    background-color: #2F303A;
+    content: '';
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                      url(../img/Img67.png);
+    background-size: cover;
     padding: 300px 0px 300px 0px;
 }
 
@@ -208,14 +207,18 @@ background-image: url(../img/astronaut1.svg);
 }
 .team-list{
     display: flex;
-justify-content: center;
+    justify-content: center;
     gap: 30px;
     padding-bottom: 94px;
+    
+    
 
 }
 .items{
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
 
 }
 .team-card{   

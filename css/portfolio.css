@@ -85,6 +85,10 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     letter-spacing: 0.48px;
     padding: 6px 22px;
 }
+.line{
+    background-color: #ECECEC;
+    margin-top: 0;
+}
 /* =========================MAIN====================== */
 .main{
     margin-bottom: 94px;
@@ -131,6 +135,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 }
 .item-icons{
     border: 1px solid #EEEEEE;
+}
+.item-icons:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .item-icon-card{
     margin-bottom: 20px;
