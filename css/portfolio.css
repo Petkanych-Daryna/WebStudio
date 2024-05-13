@@ -1,12 +1,12 @@
+body{
+    font-family: Roboto; 
+    word-wrap: break-word   
+}
 .container {
     width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
   }
-body{
-    font-family: Roboto; 
-    word-wrap: break-word   
-}
 a{
     text-decoration: none;
     color: currentColor;
@@ -14,13 +14,11 @@ a{
 li{
     list-style: none;
 }
-/* =============================HEADER====================== */
-
 h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     margin: 0;
     padding: 0;
 }
-
+/* =============================HEADER====================== */
 .header{
     display: flex;
     align-items: center;
