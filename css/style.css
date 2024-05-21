@@ -236,14 +236,14 @@ background-image: url(../img/astronaut1.svg);
     justify-content: center;
     padding-top: 12px;
 }
-/* .team-block:hover{
+.team-block:hover{
     background-image: url(../img/team-animated.svg);
 background-size: contain;
 width: 44px;
 height: 44px;
 background-repeat: no-repeat;
 background-position: center;
-} */
+}
 .team-link{
 
 }
