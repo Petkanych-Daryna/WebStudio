@@ -215,14 +215,48 @@ background-image: url(../img/astronaut1.svg);
 
 }
 .items{
-    border-radius: 0px 0px 4px 4px;
+    border-radius:4px;
     background: #FFFFFF;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
 
 }
 .team-card{   
     margin-bottom: 30px;
+}
+.team-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+    justify-content: center;
+    padding-bottom: 42px;
+}
+.team-div
+.team-block{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+/* .team-block:hover{
+    background-image: url(../img/team-animated.svg);
+background-size: contain;
+width: 44px;
+height: 44px;
+background-repeat: no-repeat;
+background-position: center;
+} */
+.team-link{
+
+}
+.team-svg{
+    fill: rgba(175, 177, 184, 1);
+    width: 20px;
+    height: 20px;
+}
+/* .team-svg:hover{
+    fill: rgba(255, 255, 255, 1);
+
+} */
+.team-img{
 }
 .card-item{
     color: #212121;
@@ -256,8 +290,61 @@ background-image: url(../img/astronaut1.svg);
     padding-bottom: 30px;
 
 }
+/* ----------------------------clients-------------- */
+.clients-title{
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+letter-spacing: 0.03em;
+text-align: center;
+
+padding-top: 94px;
+}
+.clients-text{
+font-size: 6px;
+font-weight: 700;
+line-height: 7.03px;
+text-align: left;
+text-align: center;
+
+padding-top: 25px;
+padding-bottom: 19px;
+}
+.clients-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 103px;
+}
+.clients-list{
+gap: 30px;
+}
+.clients-item{
+    width: 170px;
+height: 92px;
+border-radius: 4px;
+border: 1px solid black;
+
+}
+.clients-item{
+    gap: 94px;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+.clients-img{
+    fill: rgba(175, 177, 184, 1);
+    
+}
+.clients-svg
+.clients-img:hover{
+    fill:rgba(33, 150, 243, 1);
+    border: 1px solid rgba(33, 150, 243, 1)
+}
 /* ============================FOOTER====================== */
 .footer{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #2F303A;
 }
 .footer-logo {
@@ -302,4 +389,48 @@ background-image: url(../img/astronaut1.svg);
 }
 .footer-link:nth-child(2){
     padding-bottom: 0;
+}
+.footer-list{
+}
+/* -----------------join----------------------- */
+.join-title{
+    color: rgba(255, 255, 255, 1);
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: left;
+
+padding-bottom: 32px;
+}
+.join{
+    padding-top: 72px;
+    padding-left: 70px;
+}
+.loin-div{
+    background-image: url(../img/fon.svg);
+background-size: contain;
+width: 44px;
+height: 44px;
+background-repeat: no-repeat;
+background-position: center;
+}
+.loin-div:hover{
+    background-image: url(../img/team-animated.svg);
+}
+.join-list{
+    display: flex;
+    gap: 10px;
+}
+.join-item{
+    display: flex;
+    justify-content: center;  
+    padding-top: 12px;
+}
+.join-img{
+fill: rgba(255, 255, 255, 1);
+}
+.join-svg{
+    width: 20px;
+    height: 20px;
 }
