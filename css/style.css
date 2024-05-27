@@ -178,6 +178,7 @@ background-image: url(../img/astronaut1.svg);
     line-height: 24px;
     letter-spacing: 0.42px;
 }
+/* ------------------Pege-img>work--------------- */
 .work{
     color: #212121;
     font-weight: 700;
@@ -186,14 +187,42 @@ background-image: url(../img/astronaut1.svg);
     text-align: center;
     margin-bottom: 50px;
 }
+.work-img{
+
+}
+.work-div{
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+
+  
+}
+.work-text{
+    color: rgba(255, 255, 255, 1);
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.work-text{
+    position: absolute;
+    bottom: 27px;
+}
+.work-text{
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/bg.svg);
+    width: 370px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+/* ------------------team------------------ */
 .team{
     background-color: #F5F4FA;
     margin-top: 94px;
 
-}
-.work-img{
-    display: inline-flex;
-    justify-content: space-between;
 }
 .team-subtitle{
     color: #212121;
@@ -215,6 +244,7 @@ background-image: url(../img/astronaut1.svg);
 
 }
 .items{
+    height: 428px;
     border-radius:4px;
     background: #FFFFFF;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
