@@ -35,7 +35,37 @@
      <main>
         <section class="hero">
             <h1 class="h1 container">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="button container">Замовити послугу</button>
+            <button type="button" class="button container" data-modal-open>Замовити послугу</button>
+            <div class="backdrop is-hidden"data-modal>
+                <div class="modal">
+                    <button class="btn" data-modal-close>&#10006;</button>
+                    <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+                    <form class="modal-form" name="signut_form" autocomplete="on" novalidate>
+                        <label class="modal-data">
+                            Ім'я
+                            <input class="modal-input input-person" type="name" name="name" autofocus>
+                        </label>
+                        <label class="modal-data">
+                            Телефон
+                            <input class="modal-input input-phone" type="tel" name="tel">
+                        </label>
+                        <label class="modal-data">
+                            Пошта
+                            <input class="modal-input input-email" type="email" name="email">
+                        </label>
+                        <label class="modal-data">
+                            Коментар
+                        <textarea class="modal-text" name="feedback" rows="5" placeholder="Введіть текст"></textarea>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="conditions" checked>
+                            Погоджуюся з розсилкою та приймаю <span class="modal-conditions">
+                                <a class="modal-link" href="">Умови договору</a></span>
+                        </label>
+                    </form>
+                    <button class="modal-button" type="submit">Відправити</button>
+                </div>
+            </div>
         </section>
         <section class="tabs container">
             <ul class="tabs-list">
@@ -315,7 +345,21 @@
         </div>
             </ul>
         </div>
+        <div class="sudscription">
+            <h3 class="sudscription-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+            <form class="sudscription-form" autocomplete="on" novalidate>
+                <label>
+                    <input class="sudscription-input" type="email" name="email_sudscription" placeholder="E-mail" autocomplete="on" >
+                    <button class="sudscription-button" type="button"><span class="sudscription-span">Підписатися</span>
+                        <svg class="sudscription-svg" >
+                            <use class="sudscription-img" href="./img/symbol-defs.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </label>
+            </form>
+        </div>
      </footer>
 
+     <script src="modal.js"></script>
 </body>
 </html>
