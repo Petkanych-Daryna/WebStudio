@@ -42,6 +42,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 }
 .link:hover{
     color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list{
     display: flex;
@@ -60,6 +63,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 }
 .header-link:hover{
     color:#2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item-contact{
     color: #757575;
@@ -69,6 +75,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 }
 .item-contact:hover{
     color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-item{
     color:#212121;
@@ -129,6 +138,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 }
 .list-item:hover{
     color: #FFF;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
@@ -149,6 +161,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 }
 .item-icons:hover{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item-icon-card{
     margin-bottom: 20px;
