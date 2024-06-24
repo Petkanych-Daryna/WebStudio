@@ -166,7 +166,6 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item-icon-card{
-    margin-bottom: 20px;
     display: flex;
 }
 .card-item-service{
