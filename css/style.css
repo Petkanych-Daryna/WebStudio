@@ -374,6 +374,7 @@ background-image: url(../img/diagram1.svg);
 .tabs-item:nth-child(4)::before{
 background-image: url(../img/astronaut1.svg);
 }
+
 .subtitle{
     color: #212121;
     font-weight: 700;
@@ -670,10 +671,12 @@ background-position: center;
 }
 .loin-div:hover{
     background-image: url(../img/team-animated.svg);
-    transition-property:background-image ;
+    transition-property: background-image ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
 .join-list{
     display: flex;
     gap: 10px;
