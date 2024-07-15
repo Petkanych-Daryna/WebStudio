@@ -1,0 +1,35 @@
+.work{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.work-div{
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+
+  
+}
+.work-text{
+    color: rgba(255, 255, 255, 1);
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.work-text{
+    position: absolute;
+    bottom: 27px;
+}
+.work-text{
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/bg.svg);
+    width: 370px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}

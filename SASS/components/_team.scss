@@ -1,0 +1,95 @@
+.team{
+    background-color: #F5F4FA;
+    margin-top: 94px;
+
+}
+.team-subtitle{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+
+}
+.team-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 94px;
+    
+    
+
+}
+.items{
+    height: 428px;
+    border-radius:4px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+.team-card{   
+    margin-bottom: 30px;
+}
+.team-div{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    
+}
+.team-block{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+.team-block:hover{
+    background-image: url(../img/team-animated.svg);
+width: 44px;
+height: 44px;
+
+}
+.team-svg{
+    fill: rgba(175, 177, 184, 1);
+    width: 20px;
+    height: 20px;
+}
+.team-svg:hover{
+    fill: rgba(255, 255, 255, 1);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.card-item{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+.card-text{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}
+.img-title{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.img-text{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}

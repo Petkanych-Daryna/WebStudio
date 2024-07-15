@@ -1,0 +1,66 @@
+.icon{
+    margin-top: 94px;
+
+}
+.icon-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 18px;
+    padding: 0;
+}
+.item-icons{
+    border: 1px solid #EEEEEE;
+}
+.item-icons:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-icon-card{
+    display: flex;
+}
+.card-item-service{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+    margin-left: 24px;
+}
+.card-text-service{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+}
+.content{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 150, 243, 0.90);
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: transform 500ms cubic-bezier(0.29, 0.48, 0.38, 0.97);
+}
+.content:hover .overlay {
+    transform: translateY(0);
+}
+.overlay-text{
+    width: 322px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+    padding: 63px 24px;
+}

@@ -1,13 +1,13 @@
-body{
+/* body{
     font-family: Roboto; 
     word-wrap: break-word   
-}
-.container {
+} */
+/* .container {
     width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
-  }
-a{
+  } */
+/* a{
     text-decoration: none;
     color: currentColor;
 }
@@ -17,9 +17,9 @@ li{
 h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     margin: 0;
     padding: 0;
-}
+} */
 /* =============================HEADER====================== */
-.header{
+/* .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,9 +87,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     display: block;
     margin-top: 28px;
     border-radius: 2px;
-}
+} */
 /* -------------contact--------------------- */
-.header-list{
+/* .header-list{
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -135,9 +135,9 @@ margin-right: 10px;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* =========================MAIN====================== */
-main{
+/* main{
     padding: 0;
 }
 .hero{
@@ -178,9 +178,9 @@ main{
     width: 216px;
     height: 50px;
     transition: 0.5s ease;
-}
+} */
 /* -----------------modal------------------- */
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -336,10 +336,10 @@ width: 20px;
     margin-top: 30px;
     margin-left: 26%;
     border: none;
-}
+} */
 
 /* ---------------tabs----------------- */
-.tabs-list{
+/* .tabs-list{
     display: flex;
     align-items: center;
     padding: 25px 0;
@@ -394,9 +394,9 @@ background-image: url(../img/astronaut1.svg);
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.42px;
-}
+} */
 /* ------------------Pege-img>work--------------- */
-.work{
+/* .work{
     color: #212121;
     font-weight: 700;
     font-size: 36px;
@@ -433,10 +433,10 @@ text-align: center;
     width: 370px;
     padding-top: 27px;
     padding-bottom: 27px;
-}
+} */
 
 /* ------------------team------------------ */
-.team{
+/* .team{
     background-color: #F5F4FA;
     margin-top: 94px;
 
@@ -536,9 +536,9 @@ height: 44px;
     text-align: center;
     padding-bottom: 30px;
 
-}
+} */
 /* ----------------------------clients-------------- */
-.clients-title{
+/* .clients-title{
 font-size: 36px;
 font-weight: 700;
 line-height: 42.19px;
@@ -594,9 +594,9 @@ border: 1px solid black;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* ============================FOOTER====================== */
-.footer{
+/* .footer{
     display: flex;
     flex-wrap: wrap;
     background-color: #2F303A;
@@ -645,9 +645,9 @@ border: 1px solid black;
     padding-bottom: 0;
 }
 .footer-list{
-}
+} */
 /* -----------------join----------------------- */
-.join-title{
+/* .join-title{
     color: rgba(255, 255, 255, 1);
 font-size: 14px;
 font-weight: 700;
@@ -692,9 +692,9 @@ fill: rgba(255, 255, 255, 1);
 .join-svg{
     width: 20px;
     height: 20px;
-}
+} */
 /* ------------------sudscription------------- */
-.sudscription{
+/* .sudscription{
     margin-top: 72px;
     margin-left: 93px;
 }
@@ -738,4 +738,4 @@ line-height: 30px;
 letter-spacing: 0.06em;
 text-align: center;
 
-}
+} */

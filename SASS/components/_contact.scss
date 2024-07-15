@@ -1,0 +1,52 @@
+.header-list{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.item-contact{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    transition: 0.2s ease;
+}
+.item-contact:hover{
+    color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-email{
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: rgba(117, 117, 117, 1);
+}
+.contact-email:hover{
+    fill: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-phone{
+    position: relative;
+    top: 3px;
+    width: 10px;
+    height: 16px;
+margin-right: 10px;
+    fill: rgba(117, 117, 117, 1);
+}
+.contact-phone:hover{
+    fill: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+// ---------------------portfolio-------------------
+.line{
+    background-color: #ECECEC;
+    margin-top: 0;
+}

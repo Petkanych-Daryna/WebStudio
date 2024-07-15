@@ -1,0 +1,94 @@
+main{
+    padding: 0;
+}
+.hero{
+    content: '';
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                      url(../img/Img67.png);
+    background-size: cover;
+    padding: 300px 0px 300px 0px;
+}
+
+.h1{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 696px;
+}
+
+.button{
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 50px;
+    transition: 0.5s ease;
+}
+// ---------------------portfolio-------------------
+.main{
+    margin-bottom: 94px;
+
+    padding: 0;
+}
+.list-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 94px;
+}
+.list-item{
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    padding: 6px 22px;
+}
+.list-item:first-child{
+    padding: 6px 25px;
+}
+.list-item:hover{
+    color: #FFF;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    animation-name: animation-list;
+    animation-duration: 2s;
+    animation-delay: 300ms;
+}
+@keyframes animation-list{
+    0% {
+        transform: perspective(400px) rotateX(0deg);
+    }
+    10% {
+        transform: perspective(400px) rotateX(90deg);
+    }
+    20% {
+        transform: rotateX(360deg) scale(1.25);
+    }
+    100% {
+    }
+}

@@ -1,4 +1,4 @@
-body{
+/* body{
     font-family: Roboto; 
     word-wrap: break-word   
 }
@@ -17,9 +17,9 @@ li{
 h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     margin: 0;
     padding: 0;
-}
+} */
 /* =============================HEADER====================== */
-.header{
+/* .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,9 +66,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* -----------------------contact--------------------------- */
-.item-contact{
+/* .item-contact{
     color: #757575;
     font-size: 14px;
     font-weight: 500;
@@ -76,6 +76,34 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 }
 .item-contact:hover{
     color: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-email{
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: rgba(117, 117, 117, 1);
+}
+.contact-email:hover{
+    fill: #2196F3;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-phone{
+    position: relative;
+    top: 3px;
+    width: 10px;
+    height: 16px;
+margin-right: 10px;
+    fill: rgba(117, 117, 117, 1);
+}
+.contact-phone:hover{
+    fill: #2196F3;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -110,9 +138,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
 .line{
     background-color: #ECECEC;
     margin-top: 0;
-}
+} */
 /* =========================MAIN====================== */
-.main{
+/* .main{
     margin-bottom: 94px;
 
     padding: 0;
@@ -162,9 +190,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     }
     100% {
     }
-}
+} */
 /* -------------------------icon + overlay-------------------------- */
-.icon{
+/* .icon{
     margin-top: 94px;
 
 }
@@ -229,9 +257,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     line-height: 28px;
     letter-spacing: 0.54px;
     padding: 63px 24px;
-}
+} */
 /* ============================FOOTER====================== */
-.footer{
+/* .footer{
     display: flex;
     flex-wrap: wrap;
     background-color: #2F303A;
@@ -280,9 +308,9 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     padding-bottom: 0;
 }
 .footer-list{
-}
+} */
 /* -----------------join----------------------- */
-.join-title{
+/* .join-title{
     color: rgba(255, 255, 255, 1);
 font-size: 14px;
 font-weight: 700;
@@ -325,9 +353,9 @@ fill: rgba(255, 255, 255, 1);
 .join-svg{
     width: 20px;
     height: 20px;
-}
+} */
 /* ------------------sudscription------------- */
-.sudscription{
+/* .sudscription{
     margin-top: 72px;
     margin-left: 93px;
 }
@@ -371,4 +399,4 @@ line-height: 30px;
 letter-spacing: 0.06em;
 text-align: center;
 
-}
+} */
