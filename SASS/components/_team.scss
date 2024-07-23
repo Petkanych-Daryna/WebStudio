@@ -4,7 +4,7 @@
 
 }
 .team-subtitle{
-    color: #212121;
+    color: $color-black-lite;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 1.08px;
@@ -42,41 +42,43 @@
     display: flex;
     justify-content: center;
     padding-top: 12px;
-}
-.team-block:hover{
-    background-image: url(../img/team-animated.svg);
-width: 44px;
-height: 44px;
-
+    
+    &:hover{
+        background-image: url(../img/team-animated.svg);
+    width: 44px;
+    height: 44px;
+    
+    }
 }
 .team-svg{
     fill: rgba(175, 177, 184, 1);
     width: 20px;
     height: 20px;
-}
-.team-svg:hover{
-    fill: rgba(255, 255, 255, 1);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+    &:hover{
+        fill: rgba(255, 255, 255, 1);
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
 }
 .card-item{
-    color: #212121;
+    color: $color-black-lite;
     font-size: 18px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 1.08px;
 }
 .card-text{
-    color: #757575;
+    color: $color-gray-lite;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.48px;
 }
 .img-title{
-    color: #212121;
+    color: $color-black-lite;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.48px;
@@ -85,7 +87,7 @@ height: 44px;
 
 }
 .img-text{
-    color: #757575;
+    color: $color-gray-lite;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.48px;

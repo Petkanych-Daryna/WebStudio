@@ -3,7 +3,7 @@
     margin-left: 93px;
 }
 .sudscription-title{
-    color: rgba(255, 255, 255, 1);
+    color: $color-milk;
 font-size: 14px;
 font-weight: 700;
 line-height: 16.41px;
@@ -25,17 +25,17 @@ background-color: rgba(47, 48, 58, 1);
 height: 24px;
 }
 .sudscription-img{
-    fill: rgba(255, 255, 255, 1);
+    fill: $color-milk;
 }
 .sudscription-button{
-    background-color: rgba(33, 150, 243, 1);
+    background-color: $clients-color;
     width: 200px;
     height: 55px;
     border-radius: 7px;
     margin-left: 12px;
 }
 .sudscription-span{
-color: rgba(255, 255, 255, 1);
+color: $color-milk;
 font-size: 16px;
 font-weight: 700;
 line-height: 30px;

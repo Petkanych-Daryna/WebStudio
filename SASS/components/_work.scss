@@ -1,5 +1,5 @@
 .work{
-    color: #212121;
+    color: $color-black-lite;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 1.08px;
@@ -14,7 +14,7 @@
   
 }
 .work-text{
-    color: rgba(255, 255, 255, 1);
+    color: $color-milk;
 font-size: 14px;
 font-weight: 700;
 line-height: 16.41px;

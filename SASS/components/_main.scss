@@ -10,7 +10,7 @@ main{
 }
 
 .h1{
-    color: #FFFFFF;
+    color: $color-white;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -23,7 +23,7 @@ main{
 }
 
 .button{
-    color: #FFFFFF;
+    color: $color-white;
     border: none;
     font-size: 16px;
     line-height: 30px;
@@ -54,7 +54,7 @@ main{
     margin-top: 94px;
 }
 .list-item{
-    color: #212121;
+    color: $color-black-lite;
     background: #F5F4FA;
     border-radius: 4px;
     text-align: center;
@@ -63,21 +63,22 @@ main{
     line-height: 26px;
     letter-spacing: 0.48px;
     padding: 6px 22px;
+    
+    &:hover{
+        color: $color-white;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        border-radius: 4px;
+        background: #2196F3;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+        animation-name: animation-list;
+        animation-duration: 2s;
+        animation-delay: 300ms;
+    }
 }
 .list-item:first-child{
     padding: 6px 25px;
-}
-.list-item:hover{
-    color: #FFF;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 4px;
-    background: #2196F3;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    animation-name: animation-list;
-    animation-duration: 2s;
-    animation-delay: 300ms;
 }
 @keyframes animation-list{
     0% {

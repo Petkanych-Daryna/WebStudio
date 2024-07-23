@@ -32,7 +32,7 @@ background-image: url(../img/astronaut1.svg);
 }
 
 .subtitle{
-    color: #212121;
+    color: $color-black-lite;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.42px;
@@ -45,7 +45,7 @@ background-image: url(../img/astronaut1.svg);
     margin-bottom: 10px;
 }
 .tabs-text{
-    color: #757575;
+    color: $color-gray-lite;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;

@@ -14,24 +14,24 @@
 }
 
 .title-logo{
-    color: black;
+    color: $color-black;
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
     letter-spacing: 0.78px;
 }
 .subtitle-logo{
-    color:#FFFFFF;
+    color:$color-white;
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
     letter-spacing: 0.78px;
 }
 .title-button{
-    color: #FFFFFF;
+    color: $color-white;
 }
 .link:hover{
-    color: #2196F3;
+    color:$color-blue;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -43,13 +43,13 @@
 }
     
 .nav-item{
-    color: #212121;;
+    color: $color-black-lite;
     font-size: 14px;
     letter-spacing: 0.28px;
     font-weight: 500;
     }
 .header-link:hover{
-        color:#2196F3;
+        color: $color-blue;
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

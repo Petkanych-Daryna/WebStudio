@@ -5,17 +5,18 @@
     align-items: center;
 }
 .item-contact{
-    color: #757575;
+    color: $color-gray-lite; 
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
     transition: 0.2s ease;
+
+    &:hover{
+        color: $color-blue; 
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.item-contact:hover{
-    color: #2196F3;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-email{
     position: relative;
@@ -24,26 +25,28 @@
     height: 12px;
     margin-right: 10px;
     fill: rgba(117, 117, 117, 1);
-}
-.contact-email:hover{
-    fill: #2196F3;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover{
+        fill: #2196F3;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 .contact-phone{
     position: relative;
     top: 3px;
     width: 10px;
     height: 16px;
-margin-right: 10px;
+    margin-right: 10px;
     fill: rgba(117, 117, 117, 1);
-}
-.contact-phone:hover{
-    fill: #2196F3;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover{
+        fill: #2196F3;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 // ---------------------portfolio-------------------
 .line{

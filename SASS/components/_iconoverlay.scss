@@ -10,19 +10,20 @@
     padding: 0;
 }
 .item-icons{
-    border: 1px solid #EEEEEE;
-}
-.item-icons:hover{
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    transition-property: box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid $color-white;
+
+    &:hover{
+        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+        transition-property: box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 .item-icon-card{
     display: flex;
 }
 .card-item-service{
-    color: #212121;
+    color: $color-black-lite;
     font-size: 18px;
     font-weight: 700;
     line-height: 36px;
@@ -30,7 +31,7 @@
     margin-left: 24px;
 }
 .card-text-service{
-    color: #757575;
+    color: $color-gray-lite;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
@@ -57,7 +58,7 @@
 }
 .overlay-text{
     width: 322px;
-    color: #FFF;
+    color: $color-white;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;

@@ -1,5 +1,5 @@
 .join-title{
-    color: rgba(255, 255, 255, 1);
+    color: $color-white;
 font-size: 14px;
 font-weight: 700;
 line-height: 16.41px;
@@ -19,13 +19,14 @@ width: 44px;
 height: 44px;
 background-repeat: no-repeat;
 background-position: center;
-}
-.loin-div:hover{
+
+&:hover{
     background-image: url(../img/team-animated.svg);
     transition-property: background-image ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+}
 }
 
 .join-list{
