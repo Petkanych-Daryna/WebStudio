@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     flex-wrap: wrap;
-    background-color: $color-background ;
+    background-color: $colorbackground ;
 }
 .footer-logo {
     padding-top: 60px;
@@ -10,14 +10,14 @@
     margin-left: 190px;
 }
 .footer-logo-first{
-    color: $color-blue;
+    color: $colorblue;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.78px;
 }
 .footer-logo-second{
-    color: $color-white;
+    color: $colorwhite;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -25,7 +25,7 @@
 }
 
 .footer-item{
-    color: $color-white;
+    color: $colorwhite;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -34,7 +34,7 @@
     margin-left: 190px;
 }
 .footer-link{
-    color: $color-white-lite;    ;
+    color: $colorwhitelite;    ;
     font-weight: 400;
     line-height: 24px;
     font-size: 14px;

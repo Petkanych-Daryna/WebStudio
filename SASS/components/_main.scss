@@ -10,7 +10,7 @@ main{
 }
 
 .h1{
-    color: $color-white;
+    color: $colorwhite;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -23,7 +23,7 @@ main{
 }
 
 .button{
-    color: $color-white;
+    color: $colorwhite;
     border: none;
     font-size: 16px;
     line-height: 30px;
@@ -54,7 +54,7 @@ main{
     margin-top: 94px;
 }
 .list-item{
-    color: $color-black-lite;
+    color: $colorblacklite;
     background: #F5F4FA;
     border-radius: 4px;
     text-align: center;
@@ -65,7 +65,7 @@ main{
     padding: 6px 22px;
     
     &:hover{
-        color: $color-white;
+        color: $colorwhite;
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

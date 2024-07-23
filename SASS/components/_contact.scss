@@ -5,14 +5,14 @@
     align-items: center;
 }
 .item-contact{
-    color: $color-gray-lite; 
+    color: $colorgraylite; 
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
     transition: 0.2s ease;
 
     &:hover{
-        color: $color-blue; 
+        color: $colorblue; 
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
