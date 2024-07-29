@@ -1,0 +1,22 @@
+%font{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+}
+%size{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+%img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50px;
+}
+%transition{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

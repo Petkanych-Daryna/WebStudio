@@ -13,9 +13,8 @@
 
     &:hover{
         color: $colorblue; 
+        @extend %transition;
         transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 }
 .contact-email{
@@ -28,9 +27,8 @@
 
     &:hover{
         fill: #2196F3;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        @extend %transition;
+        transition-property: fill;
     }
 }
 .contact-phone{
@@ -43,9 +41,8 @@
 
     &:hover{
         fill: #2196F3;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        @extend %transition;
+        transition-property: fill;
     }
 }
 // ---------------------portfolio-------------------

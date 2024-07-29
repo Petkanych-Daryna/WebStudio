@@ -76,49 +76,34 @@ text-align: center;
     letter-spacing: 0.12px;
 }
 .modal-svg-person{
-    width: 20px;
-    height: 20px;
-    position: absolute;
+    @extend %img;
     top: 107px;
-    left: 50px;
 
 }
 .modal-svg-phone{
-width: 20px;
-    height: 20px;
-    position: absolute;
+@extend %img;
     top: 174px;
-    left: 50px;
+
     
 }
 .modal-svg-email{
-width: 20px;
-    height: 20px;
-    position: absolute;
+@extend %img;
     top: 243px;
-    left: 50px;
-    
 }
 
 .modal-link{
+    @extend %size;
     color: $colorblue;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.42px;
     text-decoration-line: underline;
 
     margin-right: 7px;
 }
 .modal-checkbox{
+    @extend %size;
     display: flex;
     justify-content: center;
     color: $color-gray;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
     margin-top: 5px;
-    letter-spacing: 0.42px;
 
     padding-top: 20px;
 }

@@ -35,8 +35,7 @@
     &:hover{
           border: 1px solid rgba(33, 150, 243, 1);
           transition-property: border;
-          transition-duration: 250ms;
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+         @extend %transition;
       }
     }
     .clients-item{
@@ -51,7 +50,6 @@
         &:hover{
              fill: rgba(175, 177, 184, 1) ;
              transition-property: fill;
-             transition-duration: 250ms;
-             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+             @extend %transition;
          }
     }

@@ -21,11 +21,9 @@ background-repeat: no-repeat;
 background-position: center;
 
 &:hover{
+    @extend %transition;
     background-image: url(../img/team-animated.svg);
     transition-property: background-image ;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 }
 

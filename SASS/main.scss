@@ -1,6 +1,9 @@
 @import "./base/container";
 @import "./base/reset";
 @import "./base/colors";
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/placeholders";
 @import "./components/clients";
 @import "./components/contact";
 @import "./components/footer";
@@ -13,4 +16,3 @@
 @import "./components/team";
 @import "./components/work";
 @import "./components/iconoverlay";
-@import "./utils/variables";

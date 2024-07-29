@@ -11,34 +11,22 @@
 }
 .footer-logo-first{
     color: $colorblue;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.78px;
+    @extend %font;
 }
 .footer-logo-second{
     color: $colorwhite;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.78px;
+    @extend %font;
 }
 
 .footer-item{
     color: $colorwhite;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.42px;
+    @extend %size;
     display: flex;
     margin-left: 190px;
 }
 .footer-link{
     color: $colorwhitelite;    ;
-    font-weight: 400;
-    line-height: 24px;
-    font-size: 14px;
-    letter-spacing: 0.42px;
+    @extend %size;
     display: flex;
     padding-bottom: 60px;
     margin-left: 190px;

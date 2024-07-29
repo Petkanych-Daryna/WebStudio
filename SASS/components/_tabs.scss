@@ -45,9 +45,6 @@ background-image: url(../img/astronaut1.svg);
     margin-bottom: 10px;
 }
 .tabs-text{
+    @extend %size;
     color: $colorgraylite;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.42px;
 }

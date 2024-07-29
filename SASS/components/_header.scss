@@ -6,35 +6,25 @@
     border-bottom: solid 1px #ECECEC;
 }
 .title-link{
+    @extend %font;
     color: #2196F3;
-    font-size: 26px;
-    font-family: Raleway;
-    font-weight: 700;
-    letter-spacing: 0.78px;
 }
 
 .title-logo{
+    @extend %font;
     color: $colorblack;
-    font-size: 26px;
-    font-family: Raleway;
-    font-weight: 700;
-    letter-spacing: 0.78px;
 }
 .subtitle-logo{
+    @extend %font;
     color:$colorwhite;
-    font-size: 26px;
-    font-family: Raleway;
-    font-weight: 700;
-    letter-spacing: 0.78px;
 }
 .title-button{
     color: $colorwhite;
 }
 .link:hover{
+    @extend %transition;
     color:$colorblue;
     transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list{
     display: flex;
@@ -49,10 +39,9 @@
     font-weight: 500;
     }
 .header-link:hover{
-        color: $colorblue;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %transition;
+    color: $colorblue;
+    transition-property: color;
 }
 .active{
     position: relative;
