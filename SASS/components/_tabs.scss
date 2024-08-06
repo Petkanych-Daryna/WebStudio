@@ -2,15 +2,17 @@
     display: flex;
     align-items: center;
     padding: 25px 0;
-    margin: 94px 0;
+    // margin: 94px 0;
     gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .tabs-item::before{
     content: '';
 
     display: block;
     
-    width: 248px;
+
     height: 120px;
 
     background-color: #F5F4FA;
@@ -38,7 +40,9 @@ background-image: url(../img/astronaut1.svg);
     letter-spacing: 0.42px;
     text-transform: uppercase;
     display: block;
-    text-align: left;
+    text-align: center;
+
+
     margin-top:30px;
 }
 .subtitle{

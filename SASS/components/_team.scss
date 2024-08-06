@@ -6,7 +6,7 @@
 .team-subtitle{
     color: $colorblacklite;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     letter-spacing: 1.08px;
     text-align: center;
     padding-top: 94px;
@@ -15,6 +15,7 @@
 }
 .team-list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     padding-bottom: 94px;

@@ -1,7 +1,6 @@
-.icon{
-    margin-top: 94px;
+// .icon{
 
-}
+// }
 .icon-list{
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +19,9 @@
 }
 .item-icon-card{
     display: flex;
+    // width: 350px;
+    height: 294px;
+    width: 290px;
 }
 .card-item-service{
     color: $colorblacklite;

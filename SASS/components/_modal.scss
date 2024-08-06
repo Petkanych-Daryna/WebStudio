@@ -24,8 +24,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 528px;
-    min-height: 581px;
+    min-width: 290px;
+    min-height: 150px;
     padding-left: 40px;
     padding-right: 40px;
 border-radius: 4px;
@@ -43,7 +43,7 @@ text-align: center;
 }
 .btn{
     position: relative;
-    left: 450px;
+    left: 95%;
     padding-top: 2px;
     padding-bottom: 2px;
     background-color: #FFF;
@@ -55,7 +55,7 @@ text-align: center;
 .modal-data{
     display: flex;
     flex-direction: column;
-    color: $color-gray;
+    color: $colorgray;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.12px;
@@ -63,13 +63,13 @@ text-align: center;
     padding-top: 10px;
 }
 .modal-input{
-    width: 448px;
-    height: 40px;
+    width: 100%;
+    height: 30px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     margin-top: 4px;
     padding-left: 35px;
-    color: $color-black;
+    color: $colorblack;
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -77,12 +77,12 @@ text-align: center;
 }
 .modal-svg-person{
     @extend %img;
-    top: 107px;
+    top: 127px;
 
 }
 .modal-svg-phone{
 @extend %img;
-    top: 174px;
+    top: 184px;
 
     
 }
@@ -92,31 +92,39 @@ text-align: center;
 }
 
 .modal-link{
-    @extend %size;
+    font-weight: 400;
+    font-size: 12px;
+    // line-height: 24px;
+    letter-spacing: 0.42px;
     color: $colorblue;
     text-decoration-line: underline;
 
     margin-right: 7px;
 }
 .modal-checkbox{
-    @extend %size;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 12px;
+    // line-height: 24px;
+    letter-spacing: 0.42px;
     display: flex;
     justify-content: center;
-    color: $color-gray;
+    color: $colorgray;
     margin-top: 5px;
 
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .modal-text{
     resize: none;
     margin-top: 12px;
-    width: 448px;
-    height: 120px;
+    width: 250px;
+    height: 100px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     margin-top: 4px;
     padding: 12px;
-    color: $color-black;
+    color: $colorblack;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.12px;
@@ -130,11 +138,11 @@ text-align: center;
     letter-spacing: 0.96px;
     width: 200px;
     height: 50px;
-    flex-shrink: 0;
     border-radius: 4px;
-    background: $color-blue;
+    background: $colorblue;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-top: 30px;
-    margin-left: 26%;
+    margin-left: 10%;
     border: none;
+    margin-bottom: 20px;
 }

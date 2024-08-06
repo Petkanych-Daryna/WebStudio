@@ -1,48 +1,55 @@
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px;
-    border-bottom: solid 1px #ECECEC;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // padding: 25px;
+    // border-bottom: solid 1px #ECECEC;
+    margin-top: 8px;
+    margin-bottom: 15px;
 }
 .title-link{
     @extend %font;
     color: #2196F3;
+    font-size: 30px;
+    margin-left: 23%;
 }
 
 .title-logo{
     @extend %font;
+    font-size: 30px;
     color: $colorblack;
-}
-.subtitle-logo{
-    @extend %font;
-    color:$colorwhite;
 }
 .title-button{
     color: $colorwhite;
 }
-.link:hover{
-    @extend %transition;
-    color:$colorblue;
-    transition-property: color;
-}
+// .link:hover{
+//     @extend %transition;
+//     color:$colorblue;
+//     transition-property: color;
+// }
 .nav-list{
     display: flex;
-    gap: 50px;
-    margin-left: -125px;
+    gap: 18px;
+
+    margin-top: 15px;
+    // gap: 50px;
+    // margin-left: -125px;
 }
     
 .nav-item{
     color: $colorblacklite;
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 0.28px;
     font-weight: 500;
+
+
+    margin-bottom: 15px;
     }
-.header-link:hover{
-    @extend %transition;
-    color: $colorblue;
-    transition-property: color;
-}
+// .header-link:hover{
+//     @extend %transition;
+//     color: $colorblue;
+//     transition-property: color;
+// }
 .active{
     position: relative;
 }
@@ -53,6 +60,61 @@
     height: 4px;
     background-color: #2196F3;
     display: block;
-    margin-top: 28px;
+    margin-top: 6px;
     border-radius: 2px;
+}
+.header-list{
+    // display: flex;
+    // gap: 50px;
+    // justify-content: center;
+    align-items: center;
+}
+.item-contact{
+    color: $colorgraylite; 
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    transition: 0.2s ease;
+
+//     &:hover{
+//         color: $colorblue; 
+//         @extend %transition;
+//         transition-property: color;
+// }
+}
+.item-contact:nth-child(2){
+    color: $colorblue;
+}
+.contact-email{
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: rgba(117, 117, 117, 1);
+
+    // &:hover{
+    //     fill: #2196F3;
+    //     @extend %transition;
+    //     transition-property: fill;
+    // }
+}
+.contact-phone{
+    position: relative;
+    top: 3px;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: rgba(117, 117, 117, 1);
+
+    // &:hover{
+    //     fill: #2196F3;
+    //     @extend %transition;
+    //     transition-property: fill;
+    // }
+}
+// ---------------------portfolio-------------------
+.line{
+    background-color: #ECECEC;
+    margin-top: 0;
 }

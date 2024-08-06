@@ -1,33 +1,39 @@
 .footer{
     display: flex;
     flex-wrap: wrap;
-    background-color: $colorbackground ;
+    background-color:rgba(47, 48, 58, 1);
 }
 .footer-logo {
     padding-top: 60px;
     padding-bottom: 20px;
     display: flex;
-    margin-left: 190px;
+    justify-content: center;
+    padding-left: 55px;
+
+}
+.footer-list{
+    padding-left: 50px;
 }
 .footer-logo-first{
     color: $colorblue;
     @extend %font;
+font-size: 30px;
 }
 .footer-logo-second{
     color: $colorwhite;
     @extend %font;
+    font-size: 30px;
 }
 
 .footer-item{
-    color: $colorwhite;
+    color: #FFFF;
     @extend %size;
-    display: flex;
-    margin-left: 190px;
+    text-align: center;
 }
 .footer-link{
     color: $colorwhitelite;    ;
     @extend %size;
-    display: flex;
+    text-align: center;
     padding-bottom: 60px;
 }
 .footer-link:nth-child(2){

@@ -4,14 +4,16 @@ font-size: 14px;
 font-weight: 700;
 line-height: 16.41px;
 letter-spacing: 0.03em;
-text-align: left;
+text-align: center;
 
 padding-bottom: 32px;
+margin-left: 50px;
+
 }
-.join{
-    padding-top: 72px;
-    padding-left: 70px;
-}
+// .join{
+//     padding-top: 72px;
+//     padding-left: 70px;
+// }
 .loin-div{
     background-image: url(../img/fon.svg);
 background-size: contain;
@@ -29,7 +31,10 @@ background-position: center;
 
 .join-list{
     display: flex;
+    justify-content: center;
+    padding-left: 40px;
     gap: 10px;
+    padding-bottom: 60px;
 }
 .join-item{
     display: flex;

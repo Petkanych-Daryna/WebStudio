@@ -1,21 +1,26 @@
-.sudscription{
-    margin-top: 72px;
-    margin-left: 93px;
-}
+// .sudscription{
+//     margin-top: 72px;
+//     margin-left: 93px;
+// }
 .sudscription-title{
     color: $colormilk;
 font-size: 14px;
 font-weight: 700;
 line-height: 16.41px;
 letter-spacing: 0.03em;
-text-align: left;
+text-align: center;
 }
 .sudscription-form{
     padding-top: 20px;
 }
 .sudscription-input{
-    @include input ($colormixin: $colorgray, $colorborder: $colormix);
+    width: 290px;
+height: 50px;
+border-radius: 4px;
+border: 1px solid gray;
+background-color: rgba(47, 48, 58, 1);
 }
+
 .sudscription-svg{
     width: 24px;
 height: 24px;
@@ -28,7 +33,10 @@ height: 24px;
     width: 200px;
     height: 55px;
     border-radius: 7px;
-    margin-left: 12px;
+    border: none;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .sudscription-span{
 color: $colormilk;
@@ -37,5 +45,4 @@ font-weight: 700;
 line-height: 30px;
 letter-spacing: 0.06em;
 text-align: center;
-
 }
