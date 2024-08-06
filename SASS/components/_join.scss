@@ -7,7 +7,7 @@ letter-spacing: 0.03em;
 text-align: center;
 
 padding-bottom: 32px;
-margin-left: 50px;
+// margin-left: 10px;
 
 }
 // .join{
@@ -22,17 +22,17 @@ height: 44px;
 background-repeat: no-repeat;
 background-position: center;
 
-&:hover{
-    @extend %transition;
-    background-image: url(../img/team-animated.svg);
-    transition-property: background-image ;
-}
+// &:hover{
+//     @extend %transition;
+//     background-image: url(../img/team-animated.svg);
+//     transition-property: background-image ;
+// }
 }
 
 .join-list{
     display: flex;
     justify-content: center;
-    padding-left: 40px;
+    // padding-left: 40px;
     gap: 10px;
     padding-bottom: 60px;
 }

@@ -59,7 +59,7 @@ body {
   left: 50px;
 }
 
-.item-icons:hover, .loin-div:hover, .clients-img:hover, .clients-item:hover {
+.item-icons:hover, .clients-img:hover, .clients-item:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -131,7 +131,7 @@ body {
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
-  padding-left: 55px;
+  padding-left: 50px;
 }
 
 .footer-list {
@@ -259,7 +259,6 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   padding-bottom: 32px;
-  margin-left: 50px;
 }
 
 .loin-div {
@@ -270,15 +269,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.loin-div:hover {
-  background-image: url(../img/team-animated.svg);
-  transition-property: background-image;
-}
 
 .join-list {
   display: flex;
   justify-content: center;
-  padding-left: 40px;
   gap: 10px;
   padding-bottom: 60px;
 }
@@ -789,7 +783,7 @@ main {
 
 .item-icon-card {
   display: flex;
-  height: 294px;
+  height: 235px;
   width: 290px;
 }
 
