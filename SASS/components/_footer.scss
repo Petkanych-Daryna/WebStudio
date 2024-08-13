@@ -36,9 +36,9 @@ font-size: 30px;
     padding-bottom: 0;
 }
 @media screen and (min-width:320px) and (max-width: 767.98){
-    // .footer-list{
-    //     padding-left: 20px;
-    // }
+    .footer-list{
+        padding-left: 20px;
+    }
     .footer-logo{
         display: flex;
         justify-content: center;
@@ -49,7 +49,8 @@ font-size: 30px;
     .footer-link{
         text-align: center;
     }
-    
+    .footer-list{
+    }
 }
 @media screen and (min-width:767.98px) and (max-width:1199.98px){
     .footer-list{
