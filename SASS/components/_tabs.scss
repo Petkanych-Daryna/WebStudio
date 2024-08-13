@@ -1,6 +1,5 @@
 .tabs-list{
     display: flex;
-    align-items: center;
     padding: 25px 0;
     // margin: 94px 0;
     gap: 30px;
@@ -12,7 +11,6 @@
 
     display: block;
     
-
     height: 120px;
 
     background-color: #F5F4FA;
@@ -40,7 +38,7 @@ background-image: url(../img/astronaut1.svg);
     letter-spacing: 0.42px;
     text-transform: uppercase;
     display: block;
-    text-align: center;
+    // text-align: center;
 
 
     margin-top:30px;
@@ -51,4 +49,32 @@ background-image: url(../img/astronaut1.svg);
 .tabs-text{
     @extend %size;
     color: $colorgraylite;
+}
+@media screen and (min-width:320px) and (max-width: 767.98){
+    .subtitle{
+        text-align: center;
+    }
+}
+@media screen and (min-width:767.98px) and (max-width:1199.98px){
+    .tabs-item::before{
+        width: 354px;
+        margin-left: 100px;
+    }
+.subtitle{
+        text-align: center;
+    }
+    .tabs-item{
+        margin-left: 100px;
+    }
+}
+@media (min-width:1199.98px){
+    .tabs-item::before{
+        width: 270px;
+    }
+    .tabs-text{
+        width: 270px;
+    }
+    .tabs-list{
+        margin: 94px 0;
+    }
 }

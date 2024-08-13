@@ -22,11 +22,11 @@ height: 44px;
 background-repeat: no-repeat;
 background-position: center;
 
-// &:hover{
-//     @extend %transition;
-//     background-image: url(../img/team-animated.svg);
-//     transition-property: background-image ;
-// }
+&:hover{
+    @extend %transition;
+    background-image: url(../img/team-animated.svg);
+    transition-property: background-image ;
+}
 }
 
 .join-list{
@@ -47,4 +47,30 @@ fill: rgba(255, 255, 255, 1);
 .join-svg{
     width: 20px;
     height: 20px;
+}
+@media (min-width:767.98px){
+    .join-title{
+        text-align: end;
+        margin-right: 119px;
+    }  
+    .join-list{
+        justify-content: end;
+        margin-right: 78px;
+    }
+    .join{
+        margin-top: -185px;
+    }
+}
+@media (min-width:1199.98px){
+    .join-title{
+        text-align: center;
+        margin-right: 350px;
+    }  
+    .join{
+        margin-top: -165px;
+    }
+    .join-list{
+justify-content: center;
+margin-right: 300px;
+    }
 }

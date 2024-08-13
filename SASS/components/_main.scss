@@ -6,7 +6,7 @@ main{
     background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
                       url(../img/Img67.png);
     background-size: cover;
-    background-position: center;
+
     background-repeat: no-repeat;
     // padding: 300px 0px 300px 0px;
     padding: 118px 0px 118px 0px;
@@ -15,14 +15,15 @@ main{
 .h1{
     color: $colorwhite;
     font-weight: 900;
-    font-size: 26px;
+
     line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
     text-align: center;
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 696px;
+
 }
 
 .button{
@@ -42,8 +43,31 @@ main{
     width: 200px;
     height: 50px;
     transition: 0.5s ease;
-    margin-left: 20%;
+    margin-left: 15%;
     
+}
+@media (min-width: 479.98px){
+    .button{
+        margin-left: 28%;
+    }
+}
+@media (min-width:767.98px){
+    .button{
+        margin-left: 36%;
+    }
+    @media (min-width:1199.98px){
+        h1{
+            font-size: 44px;
+            width: 696px;
+            margin: 0 auto;
+        }
+        .hero{
+                padding: 300px 0px 300px 0px;
+        }
+        .button{
+            margin-left: 42%;
+        }
+    }
 }
 // ---------------------portfolio-------------------
 .main{
@@ -72,19 +96,19 @@ main{
     line-height: 26px;
     letter-spacing: 0.48px;
     padding: 6px 22px;
+
+    &:hover{
+        @extend %transition;
+        color: $colorwhite;
+        transition-property: color;
+        border-radius: 4px;
+        background: #2196F3;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+        animation-name: animation-list;
+        animation-duration: 2s;
+        animation-delay: 300ms;
+    }
 }
-//     &:hover{
-//         @extend %transition;
-//         color: $colorwhite;
-//         transition-property: color;
-//         border-radius: 4px;
-//         background: #2196F3;
-//         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-//         animation-name: animation-list;
-//         animation-duration: 2s;
-//         animation-delay: 300ms;
-//     }
-// }
 @keyframes animation-list{
     0% {
         transform: perspective(400px) rotateX(0deg);
@@ -96,5 +120,20 @@ main{
         transform: rotateX(360deg) scale(1.25);
     }
     100% {
+    }
+}
+@media screen and (min-width:320px) and (max-width:1199.98){
+h1{
+width: 696px;
+font-size: 26px;
+.hero{
+    background-position: center;
+}
+}
+}
+@media (min-width:767.98px){
+    .list-all{
+        margin-top: 94px;
+        align-items: center;
     }
 }

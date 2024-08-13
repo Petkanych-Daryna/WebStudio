@@ -59,7 +59,7 @@ text-align: center;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.12px;
-
+    
     padding-top: 10px;
 }
 .modal-input{
@@ -69,8 +69,8 @@ text-align: center;
     border: 1px solid rgba(33, 33, 33, 0.20);
     margin-top: 4px;
     padding-left: 35px;
+    // padding-left: 10px;
     color: $colorblack;
-    font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.12px;
@@ -78,17 +78,18 @@ text-align: center;
 .modal-svg-person{
     @extend %img;
     top: 127px;
-
+    // opacity: 0;
 }
 .modal-svg-phone{
-@extend %img;
+    @extend %img;
     top: 184px;
-
+    // opacity: 0;
     
 }
 .modal-svg-email{
-@extend %img;
+    @extend %img;
     top: 243px;
+    // opacity: 0;
 }
 
 .modal-link{
@@ -98,7 +99,7 @@ text-align: center;
     letter-spacing: 0.42px;
     color: $colorblue;
     text-decoration-line: underline;
-
+    
     margin-right: 7px;
 }
 .modal-checkbox{
@@ -112,14 +113,27 @@ text-align: center;
     justify-content: center;
     color: $colorgray;
     margin-top: 5px;
-
+    
     padding-top: 10px;
+}
+@media screen and (min-width:320px) and (max-width:479.98px){
+    .modal-text{
+        width: 220px;
+        height: 50px;
+    }
+    .modal-svg-person{
+top: 149px;
+}
+.modal-svg-phone{
+    top: 208px;
+}
+.modal-svg-email{
+    top: 264px;
+}
 }
 .modal-text{
     resize: none;
     margin-top: 12px;
-    width: 250px;
-    height: 100px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     margin-top: 4px;
@@ -142,7 +156,18 @@ text-align: center;
     background: $colorblue;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-top: 30px;
-    margin-left: 10%;
+    margin-left: 10px;
     border: none;
     margin-bottom: 20px;
+}
+@media (min-width: 479.98px){
+    .modal{
+        min-width: 450px;
+    }
+    .modal-button{
+        margin-left: 90px;
+    }
+    .modal-button{
+        margin-left: 90px;
+    }
 }
