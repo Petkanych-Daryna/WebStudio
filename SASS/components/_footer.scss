@@ -27,7 +27,7 @@ font-size: 30px;
 
 }
 .footer-link{
-    color: $colorwhitelite;    ;
+    color: $colorwhitelite;
     @extend %size;
 
     padding-bottom: 60px;
@@ -50,8 +50,6 @@ align-items: center;
     .footer-link{
         text-align: center;
     }
-    .footer-list{
-    }
 }
 @media screen and (min-width:767.98px) and (max-width:1199.98px){
     .footer-list{
@@ -72,7 +70,5 @@ margin-left: 105px;
 @media (min-width:1199.98px){
     .footer-logo{
         display: flex;
-    }
-    .footer-list{
     }
 }
